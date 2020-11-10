@@ -1,6 +1,3 @@
-public class CA2 {
-    public static void main(String[] args) {
-
 //The file can be changed easily
 String myFileName = "text.txt";
 
@@ -8,12 +5,21 @@ String myFileName = "text.txt";
 try { //file might not exist
     Scanner myFile = new Scanner(new FileReader(myFileName));
 
+    if (myFile.hasNext()) {
 
+        //There is something in the file
 
+        String input = myFile.nextLine();
+        System.out.println(myFile)
 
+    } else {
+
+        //The file is empty
+
+        System.out.println("The file is empty");
+
+    }
 
 } catch (Exception e) {
     System.out.println("Unable to find the file " + myFileName)
-}
-
 }
