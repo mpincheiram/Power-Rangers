@@ -1,0 +1,19 @@
+public class CA2 {
+    public static void main(String[] args) {
+
+//The file can be changed easily
+String myFileName = "text.txt";
+
+
+try { //file might not exist
+    Scanner myFile = new Scanner(new FileReader(myFileName));
+
+
+
+
+
+} catch (Exception e) {
+    System.out.println("Unable to find the file " + myFileName)
+}
+
+}
