@@ -1,2 +1,0 @@
-# Power Rangers
- collaboration group
