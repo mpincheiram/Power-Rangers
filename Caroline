@@ -1,25 +1,12 @@
-//The file can be changed easily
-String myFileName = "text.txt";
+static int OddOrEven(int x) {
+   
+    /**
+     * author: Caroline de Sá
+     */
 
-
-try { //file might not exist
-    Scanner myFile = new Scanner(new FileReader(myFileName));
-
-    if (myFile.hasNext()) {
-
-        //There is something in the file
-
-        String input = myFile.nextLine();
-        System.out.println(myFile)
-
-    } else {
-
-        //The file is empty
-
-        System.out.println("The file is empty");
-
+    if (x % 2 == 0)
+      System.out.println("The number is even.");
+    else
+      System.out.println("The number is odd.");
+    return x;
     }
-
-} catch (Exception e) {
-    System.out.println("Unable to find the file " + myFileName)
-}
