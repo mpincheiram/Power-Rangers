@@ -34,7 +34,7 @@ public static void main(String[] args) {
         }
         }
         catch(Exception e){
-            System.out.println(" please enter just numbers");
+            System.out.println(" please enter only numbers");
     }
     
 }
