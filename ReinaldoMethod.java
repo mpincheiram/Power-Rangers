@@ -1,10 +1,17 @@
+
+package reinaldomethod;
+
 import java.util.Scanner;
 
-public class ages {
 
-    static void reinaldoMethod(int r) {
+public class ReinaldoMethod {
+
+    public static void main(String[] args) {
+    reinaldoMethod();   
+    }
+    public static void reinaldoMethod(){
         /**
-         * Reinaldo2020360
+         *@author Reinaldo2020360
          */
             
         Scanner myKB = new Scanner (System.in);
@@ -22,12 +29,7 @@ public class ages {
         System.out.println("your result is :" +n3 );
         
       
-        
+       
         }
-    
+    }
 
-public static void main(String[] args) {
-    
-    reinaldoMethod();
-}
-}
