@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+
+
+        /**
+         * author: Henrique Oliveira Gomes
+         *id number: 2020472
+         */
+        
+ public static void main(String[] args) {
+     
+        int = age; 
+        Scanner myKB = new Scanner (System.in); //able to get input from Keyboard 
+
+        System.out.print ("OFF LICENCE");
+
+        try {
+            System.out.println("Hello, please enter your age: "); //print 
+            age = myKB.nextInt();//Define number as a number int from the scanner;
+            
+        if (age <18){ 
+                System.out.println("You are not allowed to buy alcohol, need someoneolder ");
+              }   
+        else { 
+            System.out.println ("You are allowed to buy alcohol");
+        }
+        
+        }
+        
+        catch(Exception e){ /
+            System.out.println ("That was not a number!");
+            
+        }
+    }
+}
