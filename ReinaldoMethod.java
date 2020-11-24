@@ -10,6 +10,7 @@ public class ReinaldoMethod {
     public static void reinaldoMethod(){
         /**
          *@author Reinaldo2020360
+         *basic sum
          */
             
         Scanner myKB = new Scanner (System.in);
