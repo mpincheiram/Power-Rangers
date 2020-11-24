@@ -6,8 +6,28 @@ import java.util.Scanner;
  * project
  */
 public class project {
-
+     
+    static void reinaldo2020360(int calculator) {
+            
+            
+        System.out.println("Type the first number: ");
+    
+    int n1 = myKB.nextInt();
+    
+        System.out.println("Type the second number: ");
+   
+    int n2 = myKB.nextInt();
+    int n3 = (n1/n2);
+    
+        
+        System.out.println("your result is :" +n3 );
+      
+        
+        }
+       
+    
     public static void main(String[] args) {
+        reinaldo2020360();
         
         BufferedReader myKB = new BufferedReader(new InputStreamReader(System.in));
         Scanner myScreen = new Scanner (System.in);
@@ -48,20 +68,14 @@ public class project {
         catch (Exception e) {
                 System.out.println(" Your Age is accepted to buy in this store");
         }
-        
-       
-        
 
         
-
-        
-    }
-                     
-
+    }  
+   
     
         
-
-   }   
+    
+   }  
     
    
     
