@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ages {
 
-    static void reinaldoMethod(int R) {
+    static void reinaldoMethod() {
 
         /**
          * Reinaldo2020360
@@ -30,7 +30,7 @@ public class ages {
 
 public static void main(String[] args) {
 
-   reinaldoMethod(R);
+   reinaldoMethod();
 
     Scanner myKB = new Scanner(System.in);
 
