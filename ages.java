@@ -2,7 +2,18 @@ import java.util.Scanner;
 
 public class ages {
 
+<<<<<<< Updated upstream
     static void reinaldoMethod(int r) {
+=======
+public static void main(String[] args) {
+
+     reinaldoMethod();
+     marioMethod();
+ }
+
+    public static void reinaldoMethod() {
+
+>>>>>>> Stashed changes
         /**
          * Reinaldo2020360
          */
@@ -21,15 +32,18 @@ public class ages {
         
         System.out.println("your result is :" +n3 );
         
-      
-        
         }
     
 
+<<<<<<< Updated upstream
 public static void main(String[] args) {
     
     reinaldoMethod();
     
+=======
+public static void marioMethod(){
+
+>>>>>>> Stashed changes
     Scanner myKB = new Scanner(System.in);
 
     String name ;
@@ -61,6 +75,8 @@ public static void main(String[] args) {
     }
     
 }
-    
+
+
 
 }
+    
