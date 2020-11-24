@@ -1,6 +1,4 @@
 
-package reinaldomethod;
-
 import java.util.Scanner;
 
 
