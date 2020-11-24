@@ -17,6 +17,7 @@ public class ages {
     
         
         System.out.println("your result is :" +n3 );
+        
       
         
         }
