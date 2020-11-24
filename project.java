@@ -9,6 +9,7 @@ public class project {
      
     static void reinaldo2020360(int calculator) {
             
+        Scanner myKB = new Scanner (System.in);
             
         System.out.println("Type the first number: ");
     
@@ -70,7 +71,9 @@ public class project {
         }
 
         
-    }  
+    }
+
+   
    
     
         
