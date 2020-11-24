@@ -1,14 +1,18 @@
 import java.util.Scanner;
 
 public class ages {
+    public static void main(String[] args) {
+
+        reinaldoMethod();
+        marioMethod();
+     }
 
     static void reinaldoMethod() {
 
         /**
          * Reinaldo2020360
          */
-
-
+        
         Scanner myKB = new Scanner (System.in);
             
         System.out.println("Type the first number: ");
@@ -28,9 +32,7 @@ public class ages {
         }
     
 
-public static void main(String[] args) {
-
-   reinaldoMethod();
+public static void marioMethod(){
 
     Scanner myKB = new Scanner(System.in);
 
