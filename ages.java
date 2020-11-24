@@ -31,13 +31,6 @@ public static void main(String[] args) {
         }
     
 
-<<<<<<< Updated upstream
-public static void main(String[] args) {
-    
-    reinaldoMethod();
-    marioMethod();
-}
-
 public static void marioMethod(){
 
 
