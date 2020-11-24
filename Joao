@@ -1,0 +1,46 @@
+package methodjava;
+import java.util.Scanner;
+/**
+ *
+ * @author joaop
+ */
+public class MethodJava {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        Scanner someScannerName = new Scanner(System.in);
+        
+        String dates;
+        
+        int HowOldAreYou = 0 ;
+        
+        System.out.println("Plese enter your age");
+        
+        dates = someScannerName.nextLine();
+        
+        try {
+            
+            HowOldAreYou = someScanner.nextInt(); 
+            
+            if (HowOldAreYou <= 18 ){
+            System.out.println("Sorry, is not allowed to buy");
+                     
+        } else if (HowOldAreYou > 18 && HowOldAreYou <= 70){
+                System.out.println(" Age over 18 allowed to buy ");
+                      
+                
+    } 
+        }
+        catch (Exception e) {
+            if (HowOldAreYou <= 18 ){
+            System.out.println("Sorry, is not allowed to buy");
+                     
+
+}
+}
+}
+}
