@@ -33,7 +33,9 @@ public class ages {
     
 
 public static void marioMethod(){
-
+/**
+*Mario Pincheira
+**/
     Scanner myKB = new Scanner(System.in);
 
     String name ;
