@@ -2,15 +2,14 @@ package methodjava;
 import java.util.Scanner;
 /**
  *
- * @author joaop
+ * @author joaop 2020381
  */
 public class MethodJava {
 
     /**
-     * @param args the command line arguments
+     * 
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         
         Scanner someScannerName = new Scanner(System.in);
         
